@@ -20,8 +20,11 @@ componentWillReceiveProps(props){
         onChange={(e) => this.props.update(e.target.value)}
         disabled={this.state.allowEdit === "false"}>
         <option value="black"> Black </option>
+        <option value="white"> White </option>
         <option value="blue"> Blue </option>
         <option value="green"> Green </option>
+        <option value="pink"> Pink </option>
+        <option value="Purple"> Purple </option>
       </select>
     )
   }

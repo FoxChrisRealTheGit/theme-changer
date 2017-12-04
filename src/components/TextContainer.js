@@ -4,7 +4,7 @@ export default class TextContainer extends Component {
   render() {
     return (
       <div className="textContainer">
-        <p style={ { color: this.props.fontColor, fontFamily: this.props.fontFamily, fontSize: this.props.fontSize } }>
+        <p style={ { color: this.props.fontColor, fontFamily: this.props.fontFamily, fontSize: this.props.fontSize , fontWeight: this.props.fontWeight, background: this.props.background} }>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur quam. Morbi eleifend sollicitudin orci nec condimentum. Vestibulum id efficitur nisi. Sed egestas venenatis metus a interdum. Morbi rutrum ullamcorper leo quis mattis. Mauris eu libero erat. Donec efficitur felis id accumsan tempus. Proin interdum lacus dui, et egestas diam viverra bibendum. Praesent ultrices augue ac leo rutrum, ac mattis sapien pretium.
           <br />
           <br />
